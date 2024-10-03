@@ -1,6 +1,6 @@
 <?php
 function verificarNumero($numero) {
-echo "función: verificarNumero()". "<br>";
+//echo "función: verificarNumero()". "<br>";
 
 // Verificar si el número es un entero mayor que 1
     if (!is_int($numero) || $numero <= 1) {
